@@ -4,7 +4,7 @@ from termcolor import colored
 import re
 import smtplib
 
-smtpserver = smtplib.SMTP("smtp.gmail.com", 587)
+smtpserver = smtplib.SMTP("camshippam.gmail.com", 587)
 smtpserver.ehlo()
 smtpserver.starttls()
 
